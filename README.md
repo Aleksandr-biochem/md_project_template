@@ -85,13 +85,14 @@ Albeit, this step can be skipped if you prefer to organise your environments in 
 
 Scripting assembly and simulation of your systems can be extremely helpful. 
 If you want to rerun simulations with other parameters, add replicates, simulate altered composition etc. you can just take the script, edit it and launch.
-Also, looking back you will know for fact, how the systems were generated. 
+Also, looking back you will know for fact how the systems were generated. 
 
 `assemble_and_run.py` is an example for setup of several repliacates of a solvated POPC bilayer in Martini2 force field using COBY. 
 
-I also inlucded `scripts/postprocess_trjs.sh` as an example of how you can script postprocessing of trajectories. 
+I also included `scripts/postprocess_trjs.sh` as an example of how you can script postprocessing of the trajectories. 
 
 ## 4. Document your work, analyse and plot data in `simulation_setup_and_analysis.ipynb`
 
 I find jupyter notebooks very convenient as lab journals and for visual analysis of data extracted from simulations.
 See the example file for template.
+
